@@ -1,0 +1,7 @@
+fairseq-*
+*.zip
+tmp/*
+data/*
+!tmp/.gitkeep
+!data/.gitkeep
+outputs
