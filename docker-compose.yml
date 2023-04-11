@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   gpu:
-    image: fauxneticien/w2v2-fairseq-pretrain
+    image: fauxneticien/fairseq-asr
     volumes:
       - ${PWD}:/workspace
     working_dir: /workspace
